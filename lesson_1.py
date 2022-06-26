@@ -1,13 +1,6 @@
-# Задание 7
-
+# Задание 1
 a = 5
-b = 56
-day_counter = 0
-
-while a < b:
-    a = a * 0.1 + a
-    day_counter += 1
-    print(day_counter,'- й день:','%.2f'%a)
-
-
-
+b = 8
+print('a =', a,'\nb =',b)
+c = int(input('В какую степень возвести? - '))
+print(a, 'в степени', c,' = ', a**c, '\n',b, 'в степени', c,' = ', b**c)
